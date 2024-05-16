@@ -1,7 +1,5 @@
 // No playground dentro do doc da openIA, conseguimos gerar este códiho
 
-import OpenAI from "openai";
-
 module.exports = class openaiApi {
 
     static configureApi () {
