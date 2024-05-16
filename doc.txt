@@ -8,3 +8,12 @@ Dentro do src é o código fonte e fora são arquivos de configuração
 
 server.js = ficará nossas configs de servidor
 app.js = aplicação que está no nosso servidor
+
+Criamos a controller, model e routes
+
+A controller basicamente tem um método, do chatgtp chamado createCompletion, podemos receber o método que criamos: textCompletion
+que receberá o nosso prompt. Este método é chamado pelo nosso configure(), que contém a chave do nosso GPT estanciado
+
+A model é onde terá um construtor que receberá nosso prompt
+
+A Rota comtém a url, controller e método a ser acessado via http

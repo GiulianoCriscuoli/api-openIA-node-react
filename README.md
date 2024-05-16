@@ -9,13 +9,13 @@ Antes de começar, certifique-se de ter o Node.js e o npm instalados em sua máq
 ## Configuração do Backend (Node.js)
 
 1. Clone este repositório em sua máquina local:
-# https://github.com/GiulianoCriscuoli/api-openIA-node-react/
+### https://github.com/GiulianoCriscuoli/api-openIA-node-react/
 
 2. Navegue até o diretório do projeto:
-# cd openai-node-react/backend
+cd openai-node-react/backend
 
 3. Instale as dependências do projeto:
-# npm install
+npm install
 
 4. Configure sua chave de API do OpenAI:
 Renomeie o arquivo `.env.example` para `.env` e insira sua chave de API do OpenAI no lugar de `YOUR_API_KEY`.
