@@ -1,0 +1,10 @@
+instalação do cors: npm i cors
+instalação do dotenv: npm i dotenv
+instalação do express: npm i express
+instalação do openai: npm i openai
+instalação do nodemon: npm i nodemon // rodar servidor em watch
+
+Dentro do src é o código fonte e fora são arquivos de configuração
+
+server.js = ficará nossas configs de servidor
+app.js = aplicação que está no nosso servidor
