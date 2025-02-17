@@ -21,7 +21,7 @@ module.exports = {
 
             return response.status(400).json({
                 success: false,
-                error: error.response ? error.response : "Problemas com o servidor"
+                error: error.response ? error.response.data : "Problemas com o servidor"
             });
         }
     }

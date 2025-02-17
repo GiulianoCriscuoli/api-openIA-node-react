@@ -4,6 +4,8 @@ instalação do express: npm i express
 instalação do openai: npm i openai
 instalação do nodemon: npm i nodemon // rodar servidor em watch
 
+node src/server // rodar o servidor inicialmente
+
 Dentro do src é o código fonte e fora são arquivos de configuração
 
 server.js = ficará nossas configs de servidor
@@ -17,3 +19,18 @@ que receberá o nosso prompt. Este método é chamado pelo nosso configure(), qu
 A model é onde terá um construtor que receberá nosso prompt
 
 A Rota comtém a url, controller e método a ser acessado via http
+
+
+Primeiro criamos a instância do openia e usamos o configure api com a nossa chave, retornando openia
+Na controller temos a variável openia com as configs e usamos a configuração e a variável inputModel
+
+Após isso passamos para o método do open ia o nosso inputModel no método de construir o prompt e retornamos uma resposa positiva caso ocorra tudo bem.
+
+FRONT com REACT, create react app
+
+criamos o projeto com o comando 
+
+npx create-react-app gpt-front
+npm run start para rodar o projeto
+
+instalar o axios para requisições http: npm i axios
